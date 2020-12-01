@@ -1,0 +1,17 @@
+create table tips(
+	tipId int PRIMARY KEY AUTO_INCREMENT,
+	language VARCHAR(30) NOT NULL,
+    title VARCHAR(100) NOT NULL,
+    description VARCHAR(1024) NOT NULL
+);
+
+INSERT INTO tips (language,title,description) values ('C++','Master the Almighty Semicolon ;','In C++, ending statements with a semicolon is a must. The Semicolon tells that the current statement has been terminated and other statements following are new statements.');
+INSERT INTO tips (language,title,description) values ('GENERAL','Indentation and Brackets go Hand-in-Hand','In C++ and many other programming languages, indentation is not mandatory. Yet, it is a good programming practice which enhances readability of code. Moreover, placement of brackets should be done in accordance with indentation to increase readablity and reduce ambiguity.');
+INSERT INTO tips (language,title,description) values ('GENERAL','Let your variables do the talking!','Often programmers make the mistake of giving irrelevant and arbitrary names to variables which leads to more and more commenting. Instead, one should give meaningful names to variables and functions that highlight their functioning and usage.');
+INSERT INTO tips (language,title,description) values ('C++','Pointers -> An important C++ pointer!','Pointers store address of variables or a memory location. Pointers save memory space. Execution time with pointers is faster because data are manipulated with the address, that is, direct access to memory location. They are also used for dynamic memory allocation');
+INSERT INTO tips (language,title,description) values ('Java','Wrappers: Good for gifts, but not always for variables!','In Java, wrapper classes are a blessing because of their great utility. But when used excessively, they are no less than a curse as they slow down your code. Use primitive variable possible as primitive class only has values while the wrapper class stores information about the entire class.  ');
+INSERT INTO tips (language,title,description) values ('Java','Always check the pointless Null Pointers','During debugging of code, one should always ensure that object instances (if present) actually hold a reference and are not null to avoid NullPointerException.');
+INSERT INTO tips (language,title,description) values ('Java','String Initialization: Stick to the basics!','Initializing strings using the string constructor (String str = new String(\"Hello World\")) is slower as compared to directly initializing using string literals ( String str = \"Hello World\").');
+INSERT INTO tips (language,title,description) values ('Python','Indentation: Sorry, it\'s not optional this time!','Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important. Python uses indentation to indicate a block of code. Moreover, maintaining uniform indents is also important otherwise python interpreter may give an error.');
+INSERT INTO tips (language,title,description) values ('Python','List Comprehension: Faster list creation','To create a list using another list or by checking some condition on elements of the other list, use list comprehension instead of for loop blocks for faster code.');
+INSERT INTO tips (language,title,description) values ('Python','Managing the ambiguity of data type','In Python, since there are no type specifiers for variables, it becomes harder to debug codes. Use the type() function to know the type of a variable for validation as well as debugging.');

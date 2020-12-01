@@ -1,0 +1,16 @@
+.output{
+	font-family: 'Courier New', Courier, monospace;
+	color:White;
+	background-color:black;
+	height:570px;
+	overflow-y:auto;
+	padding-left: 5px;
+}
+
+.navTextColor{
+	color:white;
+}
+.navTextColor:hover{
+	color:orange;
+}
+

@@ -1,0 +1,26 @@
+body, html{
+	height:100%;
+}
+.bg{
+	background-color:rgb(38,38,38);
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size:cover;
+}
+
+.navTextColor{
+	color:rgb(255, 255,255);
+}
+.navTextColor:hover{
+	color:orange;
+}
+
+.valid-field{
+	color:limegreen;
+	font-size: small;
+}
+.invalid-field{
+	color:red;
+	visibility: hidden;
+	font-size:x-small;
+}

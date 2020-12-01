@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>test</display-name>
+  <welcome-file-list>
+    <welcome-file>/View/Dashboard.jsp</welcome-file>
+    <welcome-file>/View/Login.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+	<description></description>
+    <servlet-name>Login</servlet-name>
+	<jsp-file>/View/Login.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+	<description></description>
+    <servlet-name>ProfileUpdater</servlet-name>
+	<jsp-file>/Controller/ProfileUpdater.jsp</jsp-file>
+    <multipart-config></multipart-config>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProfileUpdater</servlet-name>
+	<url-pattern>/ProfileUpdater</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<description></description>
+    <servlet-name>Register</servlet-name>
+	<jsp-file>/View/Register.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+	<url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<description></description>
+    <servlet-name>Dashboard</servlet-name>
+	<jsp-file>/View/Dashboard.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dashboard</servlet-name>
+	<url-pattern>/Dashboard</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<description></description>
+    <servlet-name>Playground</servlet-name>
+	<jsp-file>/View/Playground.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Playground</servlet-name>
+	<url-pattern>/Playground</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<description></description>
+    <servlet-name>MyProfile</servlet-name>
+	<jsp-file>/View/MyProfile.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyProfile</servlet-name>
+	<url-pattern>/MyProfile</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<description></description>
+    <servlet-name>About</servlet-name>
+	<jsp-file>/View/About.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>About</servlet-name>
+	<url-pattern>/About</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<description></description>
+    <servlet-name>LoginCheck</servlet-name>
+	<jsp-file>/Controller/LoginCheck.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginCheck</servlet-name>
+	<url-pattern>/LoginCheck</url-pattern>
+  </servlet-mapping>
+
+  
+
+  <servlet>
+	<description></description>
+    <servlet-name>RegisterProcess</servlet-name>
+	<jsp-file>/Controller/RegisterProcess.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterProcess</servlet-name>
+	<url-pattern>/RegisterProcess</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<description></description>
+    <servlet-name>TaskFormProcess</servlet-name>
+	<jsp-file>/Controller/TaskFormProcess.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TaskFormProcess</servlet-name>
+	<url-pattern>/TaskFormProcess</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<description></description>
+    <servlet-name>TaskUpdateHandler</servlet-name>
+	<jsp-file>/Controller/TaskUpdateHandler.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TaskUpdateHandler</servlet-name>
+	<url-pattern>/TaskUpdateHandler</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<description></description>
+    <servlet-name>DetailsUpdater</servlet-name>
+	<jsp-file>/Controller/DetailsUpdater.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DetailsUpdater</servlet-name>
+	<url-pattern>/DetailsUpdater</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<description></description>
+    <servlet-name>LangPrefHandler</servlet-name>
+	<jsp-file>/Controller/LangPrefHandler.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LangPrefHandler</servlet-name>
+	<url-pattern>/LangPrefHandler</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<description></description>
+    <servlet-name>LogoutProcess</servlet-name>
+	<jsp-file>/Controller/LogoutProcess.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutProcess</servlet-name>
+	<url-pattern>/LogoutProcess</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	<description></description>
+    <servlet-name>CodeExecutor</servlet-name>
+	<jsp-file>/Controller/CodeExecutor.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CodeExecutor</servlet-name>
+	<url-pattern>/CodeExecutor</url-pattern>
+  </servlet-mapping>
+
+  
+  
+
+</web-app>
